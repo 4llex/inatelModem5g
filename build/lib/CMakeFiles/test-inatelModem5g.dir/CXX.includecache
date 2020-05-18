@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/qa_inatelModem5g.cc
+qa_inatelModem5g.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/qa_inatelModem5g.h
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/qa_inatelModem5g.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/test_inatelModem5g.cc
+config.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_inatelModem5g.h
+/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/lib/qa_inatelModem5g.h
+iostream
+-
+fstream
+-
+

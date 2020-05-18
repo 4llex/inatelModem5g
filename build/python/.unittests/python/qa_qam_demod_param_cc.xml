@@ -1,0 +1,6 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="2" time="0.004">
+  <testcase classname="__main__.qa_qam_demod_param_cc" name="test_001_t" time="0.0022"></testcase>
+  <testcase classname="__main__.qa_qam_demod_param_cc" name="test_002_16QAM" time="0.0016"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG -std=gnu++11 -O3 -march=native -ffast-math  -shared  -o _inatelModem5g_swig.so CMakeFiles/_inatelModem5g_swig.dir/inatelModem5g_swigPYTHON_wrap.cxx.o -lpython2.7 ../lib/libgnuradio-inatelModem5g.so -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt -Wl,-rpath,/home/alexrosa/Documentos/GNURADIO/5gIoT/gr-inatelModem5g/build/lib: 

@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<block>
+  <name>qam_demod_param_cc</name>
+  <key>inatelModem5g_qam_demod_param_cc</key>
+  <category>inatelModem5g</category>
+  <import>import inatelModem5g</import>
+  <make>inatelModem5g.qam_demod_param_cc($constelation, $map, $noisevar)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Constelation</name>
+    <key>constelation</key>
+    <type>complex_vector</type>
+  </param>
+  <param>
+    <name>Map</name>
+    <key>map</key>
+    <type>int_vector</type>
+  </param>
+  <param>
+    <name>Noise</name>
+    <key>noisevar</key>
+    <type>float_vector</type>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>
